@@ -150,7 +150,7 @@ createRestaurantHTML = (restaurant) => {
   image.style['background-size'] = 'cover';
 
   image.setAttribute('role', 'img');
-  image.setAttribute('alt', restaurant.name);
+  image.setAttribute('aria-label', restaurant.name);
   image.setAttribute('tabindex', '0');
 
   li.append(image);
